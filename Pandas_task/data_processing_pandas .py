@@ -13,14 +13,14 @@ for csv_filename in all_csv_filenames:
     j = rows = columns = 0
     # подготовка списка results выводимых статистических данных
     results = []
-    df_duplicates = day_of_birt1 = day_of_birt2 = day_of_birt3 = dict_group = pd.DataFrame()
+    day_of_birt1 = day_of_birt2 = day_of_birt3 = dict_group = pd.DataFrame()
     start = time.time()
     print(f" В обработке файл {csv_filename}: ")
     # чтение файла по 10 000 000 строк, учитывая, что существует ограничение на объем свободного ОЗУ
     for i in pd.read_csv(csv_filename, sep=',', chunksize=10000000):
         if j == 0:
             columns = i.shape[1]
-            # вывод на дисплей первых 5 строк сформированного датафрейма
+            # вывод на дисплей первых 5 строк сформированного дата фрейма
             print(f'{i.head()}')
             # замена пропущенных значений на "Unknown"
             print(f" Замена NaN на : 'Unknown'")
