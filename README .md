@@ -94,8 +94,8 @@
 ## Подготовка файлов csv
 
 `	`Для сравнения результатов обработки больших данных различными способами
-был написан небольшой скрипт(Preparatio_csv_files-pandas.py в папке 
-Preliminary_preparations/received_files), алгоритм которого следующим образом 
+был написан небольшой скрипт(**Preparatio_csv_files-pandas.py** в папке 
+**Preliminary_preparations/received_files**), алгоритм которого следующим образом 
 позволяет сформировать серию csv-файлов:
 
 - исходный файл считывается в **DataFrame**;
