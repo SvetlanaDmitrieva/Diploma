@@ -19,12 +19,12 @@ for csv_filename in all_csv_filenames:
     # замена пропущенных значений на "Unknown"
     print(f" Замена NaN на 'Unknown': ")
     print(df.fillna('Unknown').compute(num_workers=8))
-    #  вывод на дисплей статистики по всем столбцам фрейма данных
-    print('Сводка статистики по всем столбцам фрейма данных : ')
-    print(df.describe(include='all').compute(num_workers=8))
     #  вывод на печать типов данных для столбцов в дата фрейме
     print(f'Типы данных для  столбцов в файле: ')
     print(df.dtypes)
+    #  вывод на дисплей статистики по всем столбцам фрейма данных
+    print('Сводка статистики по всем столбцам фрейма данных : ')
+    print(df.describe(include='all').compute(num_workers=8))
     #  вывод на печать групп по столбцу "Пол"
     print(f'Группируем по столбцу " ол":')
     print(df.groupby('Sex').size().compute(num_workers=8))
