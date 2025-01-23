@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="191606f5-5af6-44ff-b32e-d2cc3a4d8c40" name="Changes" comment="05/01/2025-06">
+    <list default="true" id="191606f5-5af6-44ff-b32e-d2cc3a4d8c40" name="Changes" comment="07/01/2025-02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dask_task/data_processing_dask .py" beforeDir="false" afterPath="$PROJECT_DIR$/Dask_task/data_processing_dask .py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Preliminary_preparation/received_files/Preparation_csv_files-pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Preliminary_preparation/received_files/Preparation_csv_files-pandas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pyspark_task/data_processing_pyspark.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyspark_task/data_processing_pyspark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Диплом-1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Диплом-1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README - my.md" beforeDir="false" afterPath="$PROJECT_DIR$/README - my.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736261752948</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="07/01/2025-02">
+      <option name="closed" value="true" />
+      <created>1737650677860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737650677860</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +149,7 @@
     <MESSAGE value="05/01/2025-04" />
     <MESSAGE value="05/01/2025-05" />
     <MESSAGE value="05/01/2025-06" />
-    <option name="LAST_COMMIT_MESSAGE" value="05/01/2025-06" />
+    <MESSAGE value="07/01/2025-02" />
+    <option name="LAST_COMMIT_MESSAGE" value="07/01/2025-02" />
   </component>
 </project>
